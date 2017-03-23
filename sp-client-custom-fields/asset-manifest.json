@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.ee1e019b.css",
   "main.css.map": "static/css/main.ee1e019b.css.map",
-  "main.js": "static/js/main.ee809e69.js",
-  "main.js.map": "static/js/main.ee809e69.js.map",
+  "main.js": "static/js/main.11ebc3b4.js",
+  "main.js.map": "static/js/main.11ebc3b4.js.map",
   "static\\media\\Logo.png": "static/media/Logo.6fe1090c.png",
   "static\\media\\PropertyFieldAlignPicker.gif": "static/media/PropertyFieldAlignPicker.43f4017e.gif",
   "static\\media\\PropertyFieldColorPicker.gif": "static/media/PropertyFieldColorPicker.4ab06c37.gif",
@@ -17,6 +17,7 @@
   "static\\media\\PropertyFieldDropDownTreeView.gif": "static/media/PropertyFieldDropDownTreeView.5b355d02.gif",
   "static\\media\\PropertyFieldFontPicker.gif": "static/media/PropertyFieldFontPicker.50936b98.gif",
   "static\\media\\PropertyFieldFontSizePicker.gif": "static/media/PropertyFieldFontSizePicker.8ccc7ff3.gif",
+  "static\\media\\PropertyFieldGroupPicker.gif": "static/media/PropertyFieldGroupPicker.8573b40b.gif",
   "static\\media\\PropertyFieldIconPicker.gif": "static/media/PropertyFieldIconPicker.417239ff.gif",
   "static\\media\\PropertyFieldMapPicker.gif": "static/media/PropertyFieldMapPicker.76425348.gif",
   "static\\media\\PropertyFieldPassword.gif": "static/media/PropertyFieldPassword.224260d8.gif",
