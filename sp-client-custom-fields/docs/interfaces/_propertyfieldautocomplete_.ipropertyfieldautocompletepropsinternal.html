@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>IPropertyFieldPasswordHostProps | sp-client-custom-fields</title>
+	<title>IPropertyFieldAutoCompletePropsInternal | sp-client-custom-fields</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
@@ -56,13 +56,13 @@
 					<a href="../globals.html">Globals</a>
 				</li>
 				<li>
-					<a href="../modules/_propertyfieldpasswordhost_.html">&quot;PropertyFieldPasswordHost&quot;</a>
+					<a href="../modules/_propertyfieldautocomplete_.html">&quot;PropertyFieldAutoComplete&quot;</a>
 				</li>
 				<li>
-					<a href="_propertyfieldpasswordhost_.ipropertyfieldpasswordhostprops.html">IPropertyFieldPasswordHostProps</a>
+					<a href="_propertyfieldautocomplete_.ipropertyfieldautocompletepropsinternal.html">IPropertyFieldAutoCompletePropsInternal</a>
 				</li>
 			</ul>
-			<h1>Interface IPropertyFieldPasswordHostProps</h1>
+			<h1>Interface IPropertyFieldAutoCompletePropsInternal</h1>
 		</div>
 	</div>
 </header>
@@ -73,7 +73,10 @@
 				<div class="tsd-comment tsd-typography">
 					<dl class="tsd-comment-tags">
 						<dt>interface</dt>
-						<dd><p>PropertyFieldPasswordHost properties interface</p>
+						<dd><p>Private properties of the PropertyFieldAutoComplete custom field.
+								We separate public &amp; private properties to include onRender &amp; onDispose method waited
+								by the PropertyFieldCustom, witout asking to the developer to add it when he&#39;s using
+							the PropertyFieldAutoComplete.</p>
 						</dd>
 					</dl>
 				</div>
@@ -82,10 +85,15 @@
 				<h3>Hierarchy</h3>
 				<ul class="tsd-hierarchy">
 					<li>
-						<a href="_propertyfieldpassword_.ipropertyfieldpasswordpropsinternal.html" class="tsd-signature-type">IPropertyFieldPasswordPropsInternal</a>
+						<span class="tsd-signature-type">IPropertyPaneCustomFieldProps</span>
 						<ul class="tsd-hierarchy">
 							<li>
-								<span class="target">IPropertyFieldPasswordHostProps</span>
+								<span class="target">IPropertyFieldAutoCompletePropsInternal</span>
+								<ul class="tsd-hierarchy">
+									<li>
+										<a href="_propertyfieldautocompletehost_.ipropertyfieldautocompletehostprops.html" class="tsd-signature-type">IPropertyFieldAutoCompleteHostProps</a>
+									</li>
+								</ul>
 							</li>
 						</ul>
 					</li>
@@ -95,33 +103,34 @@
 				<h2>Index</h2>
 				<section class="tsd-panel tsd-index-panel">
 					<div class="tsd-index-content">
-						<section class="tsd-index-section tsd-is-inherited">
+						<section class="tsd-index-section ">
 							<h3>Properties</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="_propertyfieldpasswordhost_.ipropertyfieldpasswordhostprops.html#context" class="tsd-kind-icon">context</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="_propertyfieldpasswordhost_.ipropertyfieldpasswordhostprops.html#deferredvalidationtime" class="tsd-kind-icon">deferred<wbr>Validation<wbr>Time</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="_propertyfieldpasswordhost_.ipropertyfieldpasswordhostprops.html#disabled" class="tsd-kind-icon">disabled</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="_propertyfieldpasswordhost_.ipropertyfieldpasswordhostprops.html#initialvalue" class="tsd-kind-icon">initial<wbr>Value</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="_propertyfieldpasswordhost_.ipropertyfieldpasswordhostprops.html#key" class="tsd-kind-icon">key</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="_propertyfieldpasswordhost_.ipropertyfieldpasswordhostprops.html#label" class="tsd-kind-icon">label</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="_propertyfieldpasswordhost_.ipropertyfieldpasswordhostprops.html#ongeterrormessage" class="tsd-kind-icon">on<wbr>Get<wbr>Error<wbr>Message</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="_propertyfieldpasswordhost_.ipropertyfieldpasswordhostprops.html#placeholder" class="tsd-kind-icon">place<wbr>Holder</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="_propertyfieldpasswordhost_.ipropertyfieldpasswordhostprops.html#properties" class="tsd-kind-icon">properties</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="_propertyfieldpasswordhost_.ipropertyfieldpasswordhostprops.html#targetproperty" class="tsd-kind-icon">target<wbr>Property</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="_propertyfieldautocomplete_.ipropertyfieldautocompletepropsinternal.html#context" class="tsd-kind-icon">context</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_propertyfieldautocomplete_.ipropertyfieldautocompletepropsinternal.html#deferredvalidationtime" class="tsd-kind-icon">deferred<wbr>Validation<wbr>Time</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_propertyfieldautocomplete_.ipropertyfieldautocompletepropsinternal.html#disabled" class="tsd-kind-icon">disabled</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_propertyfieldautocomplete_.ipropertyfieldautocompletepropsinternal.html#initialvalue" class="tsd-kind-icon">initial<wbr>Value</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="_propertyfieldautocomplete_.ipropertyfieldautocompletepropsinternal.html#key" class="tsd-kind-icon">key</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_propertyfieldautocomplete_.ipropertyfieldautocompletepropsinternal.html#label" class="tsd-kind-icon">label</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_propertyfieldautocomplete_.ipropertyfieldautocompletepropsinternal.html#ongeterrormessage" class="tsd-kind-icon">on<wbr>Get<wbr>Error<wbr>Message</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_propertyfieldautocomplete_.ipropertyfieldautocompletepropsinternal.html#placeholder" class="tsd-kind-icon">place<wbr>Holder</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_propertyfieldautocomplete_.ipropertyfieldautocompletepropsinternal.html#properties" class="tsd-kind-icon">properties</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_propertyfieldautocomplete_.ipropertyfieldautocompletepropsinternal.html#suggestions" class="tsd-kind-icon">suggestions</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_propertyfieldautocomplete_.ipropertyfieldautocompletepropsinternal.html#targetproperty" class="tsd-kind-icon">target<wbr>Property</a></li>
 							</ul>
 						</section>
-						<section class="tsd-index-section tsd-is-inherited">
+						<section class="tsd-index-section ">
 							<h3>Methods</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-method tsd-parent-kind-interface tsd-is-overwrite tsd-is-inherited"><a href="_propertyfieldpasswordhost_.ipropertyfieldpasswordhostprops.html#ondispose" class="tsd-kind-icon">on<wbr>Dispose</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-interface tsd-is-inherited"><a href="_propertyfieldpasswordhost_.ipropertyfieldpasswordhostprops.html#onpropertychange" class="tsd-kind-icon">on<wbr>Property<wbr>Change</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-interface tsd-is-overwrite tsd-is-inherited"><a href="_propertyfieldpasswordhost_.ipropertyfieldpasswordhostprops.html#onrender" class="tsd-kind-icon">on<wbr>Render</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-interface tsd-is-overwrite"><a href="_propertyfieldautocomplete_.ipropertyfieldautocompletepropsinternal.html#ondispose" class="tsd-kind-icon">on<wbr>Dispose</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-interface"><a href="_propertyfieldautocomplete_.ipropertyfieldautocompletepropsinternal.html#onpropertychange" class="tsd-kind-icon">on<wbr>Property<wbr>Change</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-interface tsd-is-overwrite"><a href="_propertyfieldautocomplete_.ipropertyfieldautocompletepropsinternal.html#onrender" class="tsd-kind-icon">on<wbr>Render</a></li>
 							</ul>
 						</section>
 					</div>
 				</section>
 			</section>
-			<section class="tsd-panel-group tsd-member-group tsd-is-inherited">
+			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Properties</h2>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
 					<a name="context" class="tsd-anchor"></a>
@@ -141,36 +150,33 @@
 						</div>
 					</div>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
 					<a name="deferredvalidationtime" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagOptional">Optional</span> deferred<wbr>Validation<wbr>Time</h3>
 					<div class="tsd-signature tsd-kind-icon">deferred<wbr>Validation<wbr>Time<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
-						<p>Inherited from <a href="_propertyfieldpassword_.ipropertyfieldpasswordpropsinternal.html">IPropertyFieldPasswordPropsInternal</a>.<a href="_propertyfieldpassword_.ipropertyfieldpasswordpropsinternal.html#deferredvalidationtime">deferredValidationTime</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/OlivierCC/sp-client-custom-fields/blob/ad9f6c5/src/PropertyFieldPassword.ts#L100">PropertyFieldPassword.ts:100</a></li>
+							<li>Defined in PropertyFieldAutoComplete.ts:106</li>
 						</ul>
 					</aside>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
 					<a name="disabled" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagOptional">Optional</span> disabled</h3>
 					<div class="tsd-signature tsd-kind-icon">disabled<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
-						<p>Inherited from <a href="_propertyfieldpassword_.ipropertyfieldpasswordpropsinternal.html">IPropertyFieldPasswordPropsInternal</a>.<a href="_propertyfieldpassword_.ipropertyfieldpasswordpropsinternal.html#disabled">disabled</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/OlivierCC/sp-client-custom-fields/blob/ad9f6c5/src/PropertyFieldPassword.ts#L98">PropertyFieldPassword.ts:98</a></li>
+							<li>Defined in PropertyFieldAutoComplete.ts:104</li>
 						</ul>
 					</aside>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
 					<a name="initialvalue" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagOptional">Optional</span> initial<wbr>Value</h3>
 					<div class="tsd-signature tsd-kind-icon">initial<wbr>Value<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
-						<p>Inherited from <a href="_propertyfieldpassword_.ipropertyfieldpasswordpropsinternal.html">IPropertyFieldPasswordPropsInternal</a>.<a href="_propertyfieldpassword_.ipropertyfieldpasswordpropsinternal.html#initialvalue">initialValue</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/OlivierCC/sp-client-custom-fields/blob/ad9f6c5/src/PropertyFieldPassword.ts#L91">PropertyFieldPassword.ts:91</a></li>
+							<li>Defined in PropertyFieldAutoComplete.ts:96</li>
 						</ul>
 					</aside>
 				</section>
@@ -198,25 +204,23 @@
 						</dl>
 					</div>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
 					<a name="label" class="tsd-anchor"></a>
 					<h3>label</h3>
 					<div class="tsd-signature tsd-kind-icon">label<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
-						<p>Inherited from <a href="_propertyfieldpassword_.ipropertyfieldpasswordpropsinternal.html">IPropertyFieldPasswordPropsInternal</a>.<a href="_propertyfieldpassword_.ipropertyfieldpasswordpropsinternal.html#label">label</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/OlivierCC/sp-client-custom-fields/blob/ad9f6c5/src/PropertyFieldPassword.ts#L90">PropertyFieldPassword.ts:90</a></li>
+							<li>Defined in PropertyFieldAutoComplete.ts:95</li>
 						</ul>
 					</aside>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
 					<a name="ongeterrormessage" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagOptional">Optional</span> on<wbr>Get<wbr>Error<wbr>Message</h3>
 					<div class="tsd-signature tsd-kind-icon">on<wbr>Get<wbr>Error<wbr>Message<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">function</span></div>
 					<aside class="tsd-sources">
-						<p>Inherited from <a href="_propertyfieldpassword_.ipropertyfieldpasswordpropsinternal.html">IPropertyFieldPasswordPropsInternal</a>.<a href="_propertyfieldpassword_.ipropertyfieldpasswordpropsinternal.html#ongeterrormessage">onGetErrorMessage</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/OlivierCC/sp-client-custom-fields/blob/ad9f6c5/src/PropertyFieldPassword.ts#L99">PropertyFieldPassword.ts:99</a></li>
+							<li>Defined in PropertyFieldAutoComplete.ts:105</li>
 						</ul>
 					</aside>
 					<div class="tsd-type-declaration">
@@ -244,55 +248,61 @@
 						</ul>
 					</div>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
 					<a name="placeholder" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagOptional">Optional</span> place<wbr>Holder</h3>
 					<div class="tsd-signature tsd-kind-icon">place<wbr>Holder<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
-						<p>Inherited from <a href="_propertyfieldpassword_.ipropertyfieldpasswordpropsinternal.html">IPropertyFieldPasswordPropsInternal</a>.<a href="_propertyfieldpassword_.ipropertyfieldpasswordpropsinternal.html#placeholder">placeHolder</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/OlivierCC/sp-client-custom-fields/blob/ad9f6c5/src/PropertyFieldPassword.ts#L92">PropertyFieldPassword.ts:92</a></li>
+							<li>Defined in PropertyFieldAutoComplete.ts:99</li>
 						</ul>
 					</aside>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
 					<a name="properties" class="tsd-anchor"></a>
 					<h3>properties</h3>
 					<div class="tsd-signature tsd-kind-icon">properties<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">any</span></div>
 					<aside class="tsd-sources">
-						<p>Inherited from <a href="_propertyfieldpassword_.ipropertyfieldpasswordpropsinternal.html">IPropertyFieldPasswordPropsInternal</a>.<a href="_propertyfieldpassword_.ipropertyfieldpasswordpropsinternal.html#properties">properties</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/OlivierCC/sp-client-custom-fields/blob/ad9f6c5/src/PropertyFieldPassword.ts#L97">PropertyFieldPassword.ts:97</a></li>
+							<li>Defined in PropertyFieldAutoComplete.ts:103</li>
 						</ul>
 					</aside>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="suggestions" class="tsd-anchor"></a>
+					<h3>suggestions</h3>
+					<div class="tsd-signature tsd-kind-icon">suggestions<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in PropertyFieldAutoComplete.ts:98</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
 					<a name="targetproperty" class="tsd-anchor"></a>
 					<h3>target<wbr>Property</h3>
 					<div class="tsd-signature tsd-kind-icon">target<wbr>Property<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
-						<p>Inherited from <a href="_propertyfieldpassword_.ipropertyfieldpasswordpropsinternal.html">IPropertyFieldPasswordPropsInternal</a>.<a href="_propertyfieldpassword_.ipropertyfieldpasswordpropsinternal.html#targetproperty">targetProperty</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/OlivierCC/sp-client-custom-fields/blob/ad9f6c5/src/PropertyFieldPassword.ts#L93">PropertyFieldPassword.ts:93</a></li>
+							<li>Defined in PropertyFieldAutoComplete.ts:97</li>
 						</ul>
 					</aside>
 				</section>
 			</section>
-			<section class="tsd-panel-group tsd-member-group tsd-is-inherited">
+			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Methods</h2>
-				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-interface tsd-is-overwrite tsd-is-inherited">
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-interface tsd-is-overwrite">
 					<a name="ondispose" class="tsd-anchor"></a>
 					<h3>on<wbr>Dispose</h3>
-					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface tsd-is-overwrite tsd-is-inherited">
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface tsd-is-overwrite">
 						<li class="tsd-signature tsd-kind-icon">on<wbr>Dispose<span class="tsd-signature-symbol">(</span>elem<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">HTMLElement</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
-								<p>Inherited from <a href="_propertyfieldpassword_.ipropertyfieldpasswordpropsinternal.html">IPropertyFieldPasswordPropsInternal</a>.<a href="_propertyfieldpassword_.ipropertyfieldpasswordpropsinternal.html#ondispose">onDispose</a></p>
 								<p>Overrides IPropertyPaneCustomFieldProps.onDispose</p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OlivierCC/sp-client-custom-fields/blob/ad9f6c5/src/PropertyFieldPassword.ts#L95">PropertyFieldPassword.ts:95</a></li>
+									<li>Defined in PropertyFieldAutoComplete.ts:101</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -305,18 +315,17 @@
 						</li>
 					</ul>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-interface tsd-is-inherited">
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-interface">
 					<a name="onpropertychange" class="tsd-anchor"></a>
 					<h3>on<wbr>Property<wbr>Change</h3>
-					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface tsd-is-inherited">
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface">
 						<li class="tsd-signature tsd-kind-icon">on<wbr>Property<wbr>Change<span class="tsd-signature-symbol">(</span>propertyPath<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, oldValue<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span>, newValue<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
-								<p>Inherited from <a href="_propertyfieldpassword_.ipropertyfieldpasswordpropsinternal.html">IPropertyFieldPasswordPropsInternal</a>.<a href="_propertyfieldpassword_.ipropertyfieldpasswordpropsinternal.html#onpropertychange">onPropertyChange</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OlivierCC/sp-client-custom-fields/blob/ad9f6c5/src/PropertyFieldPassword.ts#L96">PropertyFieldPassword.ts:96</a></li>
+									<li>Defined in PropertyFieldAutoComplete.ts:102</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -335,19 +344,18 @@
 						</li>
 					</ul>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-interface tsd-is-overwrite tsd-is-inherited">
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-interface tsd-is-overwrite">
 					<a name="onrender" class="tsd-anchor"></a>
 					<h3>on<wbr>Render</h3>
-					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface tsd-is-overwrite tsd-is-inherited">
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface tsd-is-overwrite">
 						<li class="tsd-signature tsd-kind-icon">on<wbr>Render<span class="tsd-signature-symbol">(</span>elem<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">HTMLElement</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
-								<p>Inherited from <a href="_propertyfieldpassword_.ipropertyfieldpasswordpropsinternal.html">IPropertyFieldPasswordPropsInternal</a>.<a href="_propertyfieldpassword_.ipropertyfieldpasswordpropsinternal.html#onrender">onRender</a></p>
 								<p>Overrides IPropertyPaneCustomFieldProps.onRender</p>
 								<ul>
-									<li>Defined in <a href="https://github.com/OlivierCC/sp-client-custom-fields/blob/ad9f6c5/src/PropertyFieldPassword.ts#L94">PropertyFieldPassword.ts:94</a></li>
+									<li>Defined in PropertyFieldAutoComplete.ts:100</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -369,65 +377,71 @@
 						<a href="../globals.html"><em>Globals</em></a>
 					</li>
 					<li class="current tsd-kind-external-module">
-						<a href="../modules/_propertyfieldpasswordhost_.html">"<wbr>Property<wbr>Field<wbr>Password<wbr>Host"</a>
+						<a href="../modules/_propertyfieldautocomplete_.html">"<wbr>Property<wbr>Field<wbr>Auto<wbr>Complete"</a>
 					</li>
 				</ul>
 			</nav>
 			<nav class="tsd-navigation secondary menu-sticky">
 				<ul class="before-current">
-					<li class=" tsd-kind-class tsd-parent-kind-external-module">
-						<a href="../classes/_propertyfieldpasswordhost_.propertyfieldpasswordhost.html" class="tsd-kind-icon">Property<wbr>Field<wbr>Password<wbr>Host</a>
+					<li class=" tsd-kind-class tsd-parent-kind-external-module tsd-is-not-exported">
+						<a href="../classes/_propertyfieldautocomplete_.propertyfieldautocompletebuilder.html" class="tsd-kind-icon">Property<wbr>Field<wbr>Auto<wbr>Complete<wbr>Builder</a>
+					</li>
+					<li class=" tsd-kind-interface tsd-parent-kind-external-module">
+						<a href="_propertyfieldautocomplete_.ipropertyfieldautocompleteprops.html" class="tsd-kind-icon">IProperty<wbr>Field<wbr>Auto<wbr>Complete<wbr>Props</a>
 					</li>
 				</ul>
 				<ul class="current">
 					<li class="current tsd-kind-interface tsd-parent-kind-external-module">
-						<a href="_propertyfieldpasswordhost_.ipropertyfieldpasswordhostprops.html" class="tsd-kind-icon">IProperty<wbr>Field<wbr>Password<wbr>Host<wbr>Props</a>
+						<a href="_propertyfieldautocomplete_.ipropertyfieldautocompletepropsinternal.html" class="tsd-kind-icon">IProperty<wbr>Field<wbr>Auto<wbr>Complete<wbr>Props<wbr>Internal</a>
 						<ul>
 							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
-								<a href="_propertyfieldpasswordhost_.ipropertyfieldpasswordhostprops.html#context" class="tsd-kind-icon">context</a>
+								<a href="_propertyfieldautocomplete_.ipropertyfieldautocompletepropsinternal.html#context" class="tsd-kind-icon">context</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="_propertyfieldautocomplete_.ipropertyfieldautocompletepropsinternal.html#deferredvalidationtime" class="tsd-kind-icon">deferred<wbr>Validation<wbr>Time</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="_propertyfieldautocomplete_.ipropertyfieldautocompletepropsinternal.html#disabled" class="tsd-kind-icon">disabled</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="_propertyfieldautocomplete_.ipropertyfieldautocompletepropsinternal.html#initialvalue" class="tsd-kind-icon">initial<wbr>Value</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
-								<a href="_propertyfieldpasswordhost_.ipropertyfieldpasswordhostprops.html#deferredvalidationtime" class="tsd-kind-icon">deferred<wbr>Validation<wbr>Time</a>
+								<a href="_propertyfieldautocomplete_.ipropertyfieldautocompletepropsinternal.html#key" class="tsd-kind-icon">key</a>
 							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
-								<a href="_propertyfieldpasswordhost_.ipropertyfieldpasswordhostprops.html#disabled" class="tsd-kind-icon">disabled</a>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="_propertyfieldautocomplete_.ipropertyfieldautocompletepropsinternal.html#label" class="tsd-kind-icon">label</a>
 							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
-								<a href="_propertyfieldpasswordhost_.ipropertyfieldpasswordhostprops.html#initialvalue" class="tsd-kind-icon">initial<wbr>Value</a>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="_propertyfieldautocomplete_.ipropertyfieldautocompletepropsinternal.html#ongeterrormessage" class="tsd-kind-icon">on<wbr>Get<wbr>Error<wbr>Message</a>
 							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
-								<a href="_propertyfieldpasswordhost_.ipropertyfieldpasswordhostprops.html#key" class="tsd-kind-icon">key</a>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="_propertyfieldautocomplete_.ipropertyfieldautocompletepropsinternal.html#placeholder" class="tsd-kind-icon">place<wbr>Holder</a>
 							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
-								<a href="_propertyfieldpasswordhost_.ipropertyfieldpasswordhostprops.html#label" class="tsd-kind-icon">label</a>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="_propertyfieldautocomplete_.ipropertyfieldautocompletepropsinternal.html#properties" class="tsd-kind-icon">properties</a>
 							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
-								<a href="_propertyfieldpasswordhost_.ipropertyfieldpasswordhostprops.html#ongeterrormessage" class="tsd-kind-icon">on<wbr>Get<wbr>Error<wbr>Message</a>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="_propertyfieldautocomplete_.ipropertyfieldautocompletepropsinternal.html#suggestions" class="tsd-kind-icon">suggestions</a>
 							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
-								<a href="_propertyfieldpasswordhost_.ipropertyfieldpasswordhostprops.html#placeholder" class="tsd-kind-icon">place<wbr>Holder</a>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="_propertyfieldautocomplete_.ipropertyfieldautocompletepropsinternal.html#targetproperty" class="tsd-kind-icon">target<wbr>Property</a>
 							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
-								<a href="_propertyfieldpasswordhost_.ipropertyfieldpasswordhostprops.html#properties" class="tsd-kind-icon">properties</a>
+							<li class=" tsd-kind-method tsd-parent-kind-interface tsd-is-overwrite">
+								<a href="_propertyfieldautocomplete_.ipropertyfieldautocompletepropsinternal.html#ondispose" class="tsd-kind-icon">on<wbr>Dispose</a>
 							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
-								<a href="_propertyfieldpasswordhost_.ipropertyfieldpasswordhostprops.html#targetproperty" class="tsd-kind-icon">target<wbr>Property</a>
+							<li class=" tsd-kind-method tsd-parent-kind-interface">
+								<a href="_propertyfieldautocomplete_.ipropertyfieldautocompletepropsinternal.html#onpropertychange" class="tsd-kind-icon">on<wbr>Property<wbr>Change</a>
 							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-interface tsd-is-overwrite tsd-is-inherited">
-								<a href="_propertyfieldpasswordhost_.ipropertyfieldpasswordhostprops.html#ondispose" class="tsd-kind-icon">on<wbr>Dispose</a>
-							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-interface tsd-is-inherited">
-								<a href="_propertyfieldpasswordhost_.ipropertyfieldpasswordhostprops.html#onpropertychange" class="tsd-kind-icon">on<wbr>Property<wbr>Change</a>
-							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-interface tsd-is-overwrite tsd-is-inherited">
-								<a href="_propertyfieldpasswordhost_.ipropertyfieldpasswordhostprops.html#onrender" class="tsd-kind-icon">on<wbr>Render</a>
+							<li class=" tsd-kind-method tsd-parent-kind-interface tsd-is-overwrite">
+								<a href="_propertyfieldautocomplete_.ipropertyfieldautocompletepropsinternal.html#onrender" class="tsd-kind-icon">on<wbr>Render</a>
 							</li>
 						</ul>
 					</li>
 				</ul>
 				<ul class="after-current">
-					<li class=" tsd-kind-interface tsd-parent-kind-external-module">
-						<a href="_propertyfieldpasswordhost_.ipropertyfieldpasswordstate.html" class="tsd-kind-icon">IProperty<wbr>Field<wbr>Password<wbr>State</a>
+					<li class=" tsd-kind-function tsd-parent-kind-external-module">
+						<a href="../modules/_propertyfieldautocomplete_.html#propertyfieldautocomplete" class="tsd-kind-icon">Property<wbr>Field<wbr>Auto<wbr>Complete</a>
 					</li>
 				</ul>
 			</nav>
