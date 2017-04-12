@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.ee1e019b.css",
   "main.css.map": "static/css/main.ee1e019b.css.map",
-  "main.js": "static/js/main.be17f630.js",
-  "main.js.map": "static/js/main.be17f630.js.map",
+  "main.js": "static/js/main.e5e8ef7a.js",
+  "main.js.map": "static/js/main.e5e8ef7a.js.map",
   "static\\media\\Logo.png": "static/media/Logo.6fe1090c.png",
   "static\\media\\PropertyFieldAlignPicker.gif": "static/media/PropertyFieldAlignPicker.43f4017e.gif",
   "static\\media\\PropertyFieldAutoComplete.gif": "static/media/PropertyFieldAutoComplete.1ff6bda3.gif",
@@ -37,6 +37,7 @@
   "static\\media\\PropertyFieldSortableList.gif": "static/media/PropertyFieldSortableList.936640ec.gif",
   "static\\media\\PropertyFieldStarRating.gif": "static/media/PropertyFieldStarRating.61c4f164.gif",
   "static\\media\\PropertyFieldTagPicker.gif": "static/media/PropertyFieldTagPicker.1ffb6d23.gif",
+  "static\\media\\PropertyFieldTermSetPicker.gif": "static/media/PropertyFieldTermSetPicker.366ec9e6.gif",
   "static\\media\\PropertyFieldTreeView.gif": "static/media/PropertyFieldTreeView.8281b7c1.gif",
   "static\\media\\PropertyMaskedInput.gif": "static/media/PropertyMaskedInput.fc939bde.gif"
 }
